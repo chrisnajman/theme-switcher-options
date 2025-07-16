@@ -1,5 +1,5 @@
 export default function themeSwitcher() {
-  const LOCAL_STORAGE_PREFIX = "MEAL-ITEM-SELECTOR"
+  const LOCAL_STORAGE_PREFIX = "PROJECT_NAME"
   const THEME_KEY = `${LOCAL_STORAGE_PREFIX}-theme`
 
   const themeToggler = document.querySelector(".theme-toggler")
